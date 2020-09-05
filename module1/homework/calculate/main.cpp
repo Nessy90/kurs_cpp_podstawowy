@@ -14,7 +14,7 @@ int main() {
         int second{};
         std::cout << "Provide two numbers: ";
         std::cin >> first >> second;
-        std::cout << "Result: " << calculate(command, first, second) << "\n";
+        std::cout << "The result is: " << calculate(command, first, second) << "\n";
     }
 
     return 0;
